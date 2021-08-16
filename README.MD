@@ -27,10 +27,10 @@ CREATE DATABASE <name_dev_db>;
 CREATE DATABASE <name_test_db>;
 ```
 
-- Run migration to update database (database for developmeny)
+- Run migration to update database (database for development)
 
 ```
-db-mirate up
+yarn updb
 ```
 
 ## Environment SETUP

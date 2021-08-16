@@ -10,7 +10,10 @@
     "build": "yarn tsc",
     "jasmine": "jasmine",
     "test": "db-migrate up --env test && ENV=test jasmine-ts && db-migrate reset --env test",
-    "resetdb": "db-migrate reset --env test",
+    "updb-test": "db-migrate up --env test",
+    "resetdb-test": "db-migrate reset --env test",
+    "updb": "db-migrate up --env dev",
+    "resetdb": "db-migrate reset --env dev",
     "start": "nodemon src/index.ts"
   },
   "devDependencies": {
